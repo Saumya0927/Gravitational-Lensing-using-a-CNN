@@ -9,24 +9,6 @@ This project implements a Convolutional Neural Network (CNN) based approach to d
 - Advanced preprocessing for astronomical images
 - Comprehensive cross-validation and evaluation framework
 
-## Project Structure
-
-lens_detection_project/
-├── data/
-│   ├── slacs/          # Real SLACS data
-│   ├── simulated/      # Simulated data
-│   └── processed/      # Processed dataset
-├── notebooks/
-│   └── main.ipynb      # Main training notebook
-├── scripts/
-│   ├── config.py       # Configuration parameters
-│   ├── download_data.py
-│   ├── preprocess.py
-│   ├── model.py
-│   ├── dataset.py
-│   └── utils.py
-└── requirements.txt
-
 ## Requirements
 
 ```python
@@ -50,14 +32,12 @@ astroquery>=0.4.6
     - Squeeze-and-Excitation attention mechanisms
     - Custom data augmentation pipeline
   
-
 - Data Processing
 
     - FITS file handling
     - Z-scale normalization
     - Custom data collation
     - Comprehensive augmentation strategies
-
 
 - Training Framework
 
