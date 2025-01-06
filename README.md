@@ -3,7 +3,7 @@ A deep learning project for detecting gravitational lensing in astronomical imag
 
 ## Overview
 
-This project implements a Convolutional Neural Network (CNN) based approach to detect gravitational lensing in astronomical images. It features:
+This project implements a Convolutional Neural Network (CNN) approach to detect gravitational lensing in astronomical images. It features:
 - Custom CNN architecture with residual blocks and attention mechanisms
 - Combined real and simulated data pipeline
 - Advanced preprocessing for astronomical images
@@ -47,5 +47,21 @@ astroquery>=0.4.6
     - Model checkpointing
     - Comprehensive metrics tracking
 
+## Model Architecture
 
+The model uses a custom CNN architecture featuring:
+
+- Residual connections for better gradient flow
+- Squeeze-and-Excitation blocks for attention
+- Dropout and batch normalization for regularization
+- Custom data augmentation pipeline
+
+## Results
+The model includes comprehensive evaluation metrics:
+
+- Accuracy tracking
+- ROC-AUC curves
+- Precision-Recall metrics
+- Cross-validation results
+- Training/validation loss curves
 
